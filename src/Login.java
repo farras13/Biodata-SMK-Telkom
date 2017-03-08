@@ -42,11 +42,13 @@ public class Login extends javax.swing.JFrame {
         buttonSI = new javax.swing.JButton();
         btnSU = new javax.swing.JButton();
         btnExit = new javax.swing.JButton();
+        jPanel1 = new javax.swing.JPanel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(null);
 
         jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("PASSWORD");
         getContentPane().add(jLabel1);
         jLabel1.setBounds(210, 120, 190, 30);
@@ -54,6 +56,7 @@ public class Login extends javax.swing.JFrame {
         tfUname.setBounds(130, 80, 240, 30);
 
         jLabel2.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText("USERNAME");
         getContentPane().add(jLabel2);
         jLabel2.setBounds(210, 40, 190, 30);
@@ -81,6 +84,10 @@ public class Login extends javax.swing.JFrame {
         btnExit.setText("EXIT");
         getContentPane().add(btnExit);
         btnExit.setBounds(350, 230, 100, 40);
+
+        jPanel1.setBackground(new java.awt.Color(153, 0, 0));
+        getContentPane().add(jPanel1);
+        jPanel1.setBounds(0, 0, 510, 320);
 
         setSize(new java.awt.Dimension(527, 357));
         setLocationRelativeTo(null);
@@ -165,6 +172,7 @@ public class Login extends javax.swing.JFrame {
     private javax.swing.JButton buttonSI;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
+    private javax.swing.JPanel jPanel1;
     private javax.swing.JPasswordField tfPw;
     private javax.swing.JTextField tfUname;
     // End of variables declaration//GEN-END:variables

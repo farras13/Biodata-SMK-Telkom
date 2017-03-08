@@ -83,6 +83,7 @@ public class frmMain extends javax.swing.JFrame {
         jPanel4 = new javax.swing.JPanel();
         jScrollPane1 = new javax.swing.JScrollPane();
         tabelData = new javax.swing.JTable();
+        jPanel5 = new javax.swing.JPanel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(null);
@@ -301,6 +302,10 @@ public class frmMain extends javax.swing.JFrame {
         getContentPane().add(jPanel4);
         jPanel4.setBounds(320, 190, 690, 550);
 
+        jPanel5.setBackground(new java.awt.Color(51, 0, 255));
+        getContentPane().add(jPanel5);
+        jPanel5.setBounds(0, -30, 1010, 780);
+
         setSize(new java.awt.Dimension(1027, 785));
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
@@ -498,6 +503,7 @@ public class frmMain extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel3;
     private javax.swing.JPanel jPanel4;
+    private javax.swing.JPanel jPanel5;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JLabel lblJam;
